@@ -15,7 +15,7 @@ const Hero = () => {
     },
     common: {
       transition: "all 1s ease",
-      height: "800px",
+      height: "1400px",
     },
   };
 
