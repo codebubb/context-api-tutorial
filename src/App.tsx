@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-export const ThemeContext = React.createContext({} as any);
+export const ThemeContext = React.createContext({} as { theme: string, setTheme: any });
 
 function App() {
   const [theme, setTheme] = useState('light');
